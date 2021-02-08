@@ -21,13 +21,20 @@ metadata:
     fieldsV1:
       f:data:
         .: {}
-        f:mapRoles: {}
         f:mapUsers: {}
     manager: eksctl
     operation: Update
     time: "2021-02-07T17:31:05Z"
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        f:mapRoles: {}
+    manager: kubectl-patch
+    operation: Update
+    time: "2021-02-07T17:34:31Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "1595"
+  resourceVersion: "2316"
   selfLink: /api/v1/namespaces/kube-system/configmaps/aws-auth
   uid: 2957328e-cf8c-443b-9167-78357b631f27
